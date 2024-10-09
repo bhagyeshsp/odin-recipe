@@ -9,16 +9,19 @@
     padding: 0px;
 }
 
-.hero {
+.heading {
     width: 500px;
     height: auto;
     margin: auto 5px auto 5px;
 }
 
 .list {
-    width: 200px;
+    margin-left: 15px;
+}
+
+.container-main {
+    width: 700px;
     height: auto;
-    display: inline-block;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -45,6 +48,7 @@ a#go-home {
     color: white;
 }
 
-ol {
-    background-color: burlywood;
+.highlight {
+    background-color: yellow;
+    display: inline-block;
 }
