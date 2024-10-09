@@ -1,0 +1,27 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dream Orphans', Cambria, Cochin, 'Times New Roman', serif;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    max-height: 300px;
+    width: auto;
+    border: 2px solid black;
+}
+
+button {
+    background-color: brown;
+}
+
+a#go-home {
+    background-color: brown;
+    font-size: large;
+    color: white;
+}
+
+ol {
+    background-color: burlywood;
+}
