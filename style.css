@@ -1,3 +1,26 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 5px;
+    padding: 0px;
+}
+
+.hero {
+    width: 500px;
+    height: auto;
+    margin: auto 5px auto 5px;
+}
+
+.list {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Dream Orphans', Cambria, Cochin, 'Times New Roman', serif;
 }
