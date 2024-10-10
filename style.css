@@ -33,9 +33,10 @@ body {
 }
 
 img {
-    max-height: 300px;
-    width: auto;
+    max-height: auto;
+    width: 300px;
     border: 2px solid black;
+    display: inline-block;
 }
 
 button {
@@ -51,4 +52,24 @@ a#go-home {
 .highlight {
     background-color: yellow;
     display: inline-block;
+}
+
+.recipe-content {
+    width: 800px;
+}
+
+.recipe-hero {
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    margin: auto 5px;
+    vertical-align: middle;
+}
+
+.recipe-index {
+    width: 300px;
+    height: 600px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto 5px;
 }
